@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ID3タグエディター</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/handsontable/7.3.0/handsontable.full.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handsontable/7.3.0/handsontable.full.js"></script>
+    <script src="./id3-minimized.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body width="100%">
+<div>
+    <label for="file">タグを編集するファイルを選択してください</label>
+    <input type="file" id="file" name="file" multiple>
+    <input type="button" value="一括ダウンロード" id="dauso">
+    <div id="container"></div>
+    <script src="./dist.js"></script>
+</body>
+</html>
