@@ -16,6 +16,6 @@
     "browser-id3-writer": "^4.3.0",
     "file-saver": "^2.0.2",
     "jsmediatags": "^3.9.3",
-    "jszip": "^3.2.2"
+    "jszip": "^3.8.0"
   }
 }
